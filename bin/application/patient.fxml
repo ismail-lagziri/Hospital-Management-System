@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.patientController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#286390" height="55.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="1003.0" />
+      <Label layoutX="16.0" layoutY="11.0" text="CareConnect" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Exit" layoutX="919.0" layoutY="11.0" mnemonicParsing="false" onAction="#logOut" prefHeight="34.0" prefWidth="70.0" text="Log out">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="homeAnchorPane" layoutX="213.0" layoutY="55.0" prefHeight="547.0" prefWidth="788.0" />
+      <VBox id="patientbar" alignment="CENTER" layoutX="-2.0" layoutY="55.0" prefHeight="545.0" prefWidth="207.0" style="-fx-background-color: cde0c9;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#loadHome" prefHeight="25.0" prefWidth="213.0" text="Home">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#loadDoctors" prefHeight="25.0" prefWidth="213.0" text="View Doctors">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#loadAppointment" prefHeight="25.0" prefWidth="213.0" text="Take Appointment">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#loadReservation" prefHeight="25.0" prefWidth="213.0" text="Payment">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#loadHelp" prefHeight="25.0" prefWidth="213.0" text="Help">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Label layoutX="432.0" layoutY="4.0" prefHeight="27.0" prefWidth="132.0" text="Patient Space" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Line endX="12.0" endY="549.0" layoutX="194.0" layoutY="54.0" startX="12.0" />
+      <Label fx:id="nameZone" alignment="CENTER" layoutX="404.0" layoutY="29.0" prefHeight="17.0" prefWidth="168.0" textFill="WHITE" />
+   </children>
+</AnchorPane>

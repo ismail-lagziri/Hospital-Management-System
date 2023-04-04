@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="357.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AllPayment">
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="357.0" prefWidth="788.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button layoutX="262.0" layoutY="286.0" mnemonicParsing="false" onAction="#check" prefHeight="5.0" prefWidth="256.0" style="-fx-background-color: #86bf82;" text="Check" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="15.0" layoutY="9.0" text="Check your Payment" textFill="#86bf82">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableView" layoutX="15.0" layoutY="67.0" prefHeight="200.0" prefWidth="760.0">
+         <columns>
+            <TableColumn fx:id="amountColumn" prefWidth="236.0" text="Amount" />
+            <TableColumn fx:id="admitDateColumn" minWidth="0.0" prefWidth="270.0" text="Admit Date" />
+            <TableColumn fx:id="isPaidColumn" prefWidth="248.0" text="Ispaid" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

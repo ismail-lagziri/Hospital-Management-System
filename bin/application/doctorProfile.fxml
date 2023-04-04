@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="357.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AllPayment">
+   <children>
+      <Pane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="547.0" prefWidth="788.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="122.0" layoutY="185.0" text="Name" />
+            <Label layoutX="122.0" layoutY="237.0" text="Last Name" />
+            <Label layoutX="122.0" layoutY="297.0" text="Phone Number" />
+         </children>
+      </Pane>
+      <Text fill="#286390" layoutX="22.0" layoutY="62.0" strokeType="OUTSIDE" text="CareConnect - Profile">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <Text layoutX="100.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Simplify Your Healthcare Operations">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

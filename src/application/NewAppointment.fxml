@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="357.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewAppointment">
+   <children>
+      <Label layoutX="31.0" layoutY="44.0" text="Thanks" textFill="#86bf82">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Text layoutX="70.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for choosing our hospital management system to make your reservation. We are pleased to be able to provide you with quality healthcare services, and we value your trust in us. Your reservation has been successfully processed and we look forward to serving you on your reserved date. Should you have any questions or concerns, please do not hesitate to reach out to our support team. We appreciate your continued patronage and look forward to providing you with the best healthcare services possible. Thank you again for choosing our hospital management system." wrappingWidth="275.9999999999999" />
+      <AnchorPane layoutX="460.0" layoutY="14.0" prefHeight="330.0" prefWidth="278.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <TextField fx:id="first" layoutX="12.0" layoutY="136.0" prefHeight="25.0" prefWidth="121.0" promptText="First name" />
+            <TextField fx:id="last" layoutX="147.0" layoutY="134.0" prefHeight="25.0" prefWidth="121.0" promptText="Last name" />
+            <Label layoutX="14.0" layoutY="20.0" text="Take An Appointment">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="reserve" layoutX="60.0" layoutY="273.0" mnemonicParsing="false" onAction="#reserveAction" prefHeight="25.0" prefWidth="165.0" style="-fx-background-color: #86bf82;" text="Reserve" textFill="WHITE" />
+            <Label layoutX="43.0" layoutY="50.0" text="It's quick and easy." />
+            <TextField fx:id="issue" layoutX="11.0" layoutY="201.0" prefHeight="25.0" prefWidth="256.0" promptText="Issue / servise" />
+            <DatePicker fx:id="appdate" layoutX="12.0" layoutY="168.0" prefHeight="25.0" prefWidth="254.0" promptText="Choose a date" />
+         </children>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>
