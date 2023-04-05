@@ -2,6 +2,7 @@
 
 CareConnet is a hospital management system built using Eclipse, JavaFX, and Scene Builder. It provides a comprehensive solution for managing different aspects of a hospital, including patient registration, appointment scheduling, doctor and staff management, inventory management, billing, and reporting.
 
+![Doctor Home Page](pics/4.png)
 ## Installation
 
 To install CareConnet, follow these steps:
@@ -29,11 +30,10 @@ CareConnet provides the following features:
 
 - Inventory management: Allows hospital administrators to manage inventory, including medications, medical supplies, and equipment.
 
-- Billing: Generates bills and tracks payments from patients and insurance providers.
+- Billing: Generates bills and tracks payments from patients and insurance providers (Still working on it).
 
-- Reporting: Generates reports on patient visits, staff performance, and financial performance.
+- Reporting: Generates reports on patient visits, staff performance, and financial performance (Still working on it).
 
-![Reporting Interface](pics/3.png)
 
 ## Technologies Used
 
@@ -50,9 +50,6 @@ The following contributors have contributed to the development of CareConnet:
 
 - [Ismail Lagziri](https://github.com/ismail-lagziri)
 
-## License
-
-CareConnet is licensed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
