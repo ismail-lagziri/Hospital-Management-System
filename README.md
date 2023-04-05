@@ -18,7 +18,10 @@ CareConnet provides the following features:
 
 - Patient registration: Allows patients to register and create a profile with their personal information.
 
-![Patient Registration Interface](pics/1.png)
+<div style="text-align:center;">
+  <img src="pics/1.png" alt="Patient Registration Interface">
+</div>
+
 
 - Appointment scheduling: Allows patients to schedule appointments with doctors based on availability.
 
