@@ -21,7 +21,7 @@ CareConnet provides the following features:
 
 - Appointment scheduling: Allows patients to schedule appointments with doctors based on availability.
 
-![Appointment Scheduling Interface](pics/4.png)
+![Appointment Scheduling Interface](pics/3.png)
 
 - Doctor and staff management: Allows hospital administrators to manage doctors and staff, including their personal information, work schedule, and patient interactions.
 
